@@ -31,10 +31,10 @@ GEMINI_API_KEY=YOUR_KEY_HERE \
 SEARCH_API_KEY=YOUR_KEY_HERE \
 SEARCH_ENGINE_ID=YOUR_KEY_HERE
 
-Get keys for \
-Gemini API: https://aistudio.google.com/welcome \
-Custom Search JSON API: https://developers.google.com/custom-search/v1/introduction \
-Search Engine ID: https://developers.google.com/custom-search/v1/introduction
+    Get keys for \
+    Gemini API: https://aistudio.google.com/welcome \
+    Custom Search JSON API: https://developers.google.com/custom-search/v1/introduction \
+    Search Engine ID: https://developers.google.com/custom-search/v1/introduction
 
 5. Run the app \
 streamlit run Chat.py
