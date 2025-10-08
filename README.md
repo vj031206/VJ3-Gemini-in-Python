@@ -14,9 +14,9 @@ Choose the gemini model you want to use
 
 ## Setup
 
-1. Cloning the repository
-git clone https://github.com/vj031206/gemini-chat-in-python.git
-cd gemini-chat-in-python
+1. Cloning the repository \
+git clone https://github.com/vj031206/gemini-chat-in-python.git \
+cd gemini-chat-in-python \
 
 2. Creating a virtual environment
 python -m venv venv
