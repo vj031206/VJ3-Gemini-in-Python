@@ -12,8 +12,6 @@ Choose the gemini model you want to use
 ![2025-10-08 11 50 24 localhost 5114d0edc02a](https://github.com/user-attachments/assets/4ee5cf9d-a105-47f9-815b-24c5377a1922)
 ![2025-10-08 11 50 12 localhost 2b2021c869d9](https://github.com/user-attachments/assets/c0595733-f236-4607-9c6f-6dacc12dff99)
 
-
-
 ## Setup
 
 1. Cloning the repository
@@ -25,7 +23,7 @@ python -m venv venv
 source venv/bin/activate   # Linux/macOS
 venv\Scripts\activate      # Windows
 
-3. Install dependencies
+3. Install dependencies\n
 pip install -r requirements.txt
 
 4. Create a .env file in the root directory, based on .env.example:
