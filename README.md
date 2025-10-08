@@ -16,25 +16,25 @@ Choose the gemini model you want to use
 
 1. Cloning the repository \
 git clone https://github.com/vj031206/gemini-chat-in-python.git \
-cd gemini-chat-in-python \
+cd gemini-chat-in-python 
 
-2. Creating a virtual environment
-python -m venv venv
-source venv/bin/activate   # Linux/macOS
+2. Creating a virtual environment \
+python -m venv venv \
+source venv/bin/activate   # Linux/macOS \
 venv\Scripts\activate      # Windows
 
-3. Install dependencies\n
+3. Install dependencies \
 pip install -r requirements.txt
 
-4. Create a .env file in the root directory, based on .env.example:
-GEMINI_API_KEY=YOUR_KEY_HERE
-SEARCH_API_KEY=YOUR_KEY_HERE
+4. Create a .env file in the root directory, based on .env.example: \
+GEMINI_API_KEY=YOUR_KEY_HERE \
+SEARCH_API_KEY=YOUR_KEY_HERE \
 SEARCH_ENGINE_ID=YOUR_KEY_HERE
 
-Get keys for
-Gemini API:
-Custom Search JSON API:
-Search Engine ID: 
+Get keys for \
+Gemini API: https://aistudio.google.com/welcome \
+Custom Search JSON API: https://developers.google.com/custom-search/v1/introduction \
+Search Engine ID: https://developers.google.com/custom-search/v1/introduction
 
-5. Run the app
+5. Run the app \
 streamlit run Chat.py
