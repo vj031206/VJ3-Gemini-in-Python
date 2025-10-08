@@ -5,12 +5,10 @@ A Gemini Chatbot Web Application made in Python using Google's Gemini API and Cu
 ## Setup
 
 1. Cloning the repository
-```bash
 git clone https://github.com/vj031206/gemini-chat-in-python.git
 cd gemini-chat-in-python
 
 2. Creating a virtual environment
-
 python -m venv venv
 source venv/bin/activate   # Linux/macOS
 venv\Scripts\activate      # Windows
