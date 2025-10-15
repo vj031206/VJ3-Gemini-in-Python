@@ -1,0 +1,17 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+
+# Ignore secrets
+.env
+history.json
