@@ -22,7 +22,8 @@ Here's a glimpse of the application in action:
 
 | Google Search Toggle | Model Selection |
 | :---: | :---: |
-| ![2025-10-08 11 49 45 localhost dc61d47c41a9](https://github.com/user-attachments/assets/559dc3a9-c424-4a8d-9e51-8ed1172dc683) | PASTE_LINK_FOR_MODEL_SELECTION_HERE |
+| ![2025-10-08 11 49 45 localhost dc61d47c41a9](https://github.com/user-attachments/assets/559dc3a9-c424-4a8d-9e51-8ed1172dc683) | <img width="1920" height="1080" alt="Screenshot (89)" src="https://github.com/user-attachments/assets/33827ad1-b7c0-4d91-90c4-f7d46725c1af" />
+ |
 
 -----
 
