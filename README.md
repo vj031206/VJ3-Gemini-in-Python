@@ -1,10 +1,24 @@
-# Chat with Gemini
+# 🤖 Gemini Chatbot in Python
 
-A Gemini Chatbot Web Application made in Python using Google's Gemini API and Custom Search JSON API, and streamlit library to create and deploy the web app.
+A feature-rich chatbot web application built with Python using Google's Gemini API, Custom Search JSON API, and the Streamlit library. This project was developed as part of the Codexintern Python Developer internship.
 
-Use Google Search results with just a simple toggle
-View your chat history in the history tab, expand on any of your prompts to view the full response
-Choose the gemini model you want to use
+-----
+
+## ✨ Features
+
+  * **🌐 Integrated Google Search**: Seamlessly toggle Google Search to get real-time information within your chats.
+  * **📚 Chat History**: Easily view and revisit your past conversations in the history tab. Expand any prompt to see the full response.
+  * **🧠 Model Selection**: Choose the specific Gemini model you want to interact with from a dropdown menu.
+
+-----
+
+## 📸 Screenshots
+
+Here's a glimpse of the application in action:
+
+| Chat Interface | Chat History |
+| :---: | :---: |
+|  |  |
 
 ![2025-10-08 11 48 23 localhost 0782699b3427](https://github.com/user-attachments/assets/c3cde95e-f4e8-4ea9-8969-92a412414d85)
 ![2025-10-08 11 49 00 localhost fc28a0e7f7ee](https://github.com/user-attachments/assets/4a55f91f-e19b-42fe-a71a-d7af67fca9ea)
@@ -12,29 +26,84 @@ Choose the gemini model you want to use
 ![2025-10-08 11 50 24 localhost 5114d0edc02a](https://github.com/user-attachments/assets/4ee5cf9d-a105-47f9-815b-24c5377a1922)
 ![2025-10-08 11 50 12 localhost 2b2021c869d9](https://github.com/user-attachments/assets/c0595733-f236-4607-9c6f-6dacc12dff99)
 
-## Setup
+| Google Search Toggle | Model Selection |
+| :---: | :---: |
+|  |  |
 
-1. Cloning the repository \
-git clone https://github.com/vj031206/gemini-chat-in-python.git \
-cd gemini-chat-in-python 
+-----
 
-2. Creating a virtual environment \
-python -m venv venv \
-source venv/bin/activate   # Linux/macOS \
-venv\Scripts\activate      # Windows
+## 🚀 Getting Started
 
-3. Install dependencies \
+Follow these steps to set up and run the project on your local machine.
+
+### 1\. Clone the Repository
+
+First, clone the repository to your local machine.
+
+```bash
+git clone https://github.com/vj031206/gemini-chat-in-python.git
+cd gemini-chat-in-python
+```
+
+### 2\. Create and Activate a Virtual Environment
+
+It's recommended to create a virtual environment to manage dependencies.
+
+  * **On Linux/macOS:**
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+  * **On Windows:**
+    ```bash
+    python -m venv venv
+    venv\Scripts\activate
+    ```
+
+### 3\. Install Dependencies
+
+Install all the required Python packages from the `requirements.txt` file.
+
+```bash
 pip install -r requirements.txt
+```
 
-4. Create a .env file in the root directory, based on .env.example: \
-GEMINI_API_KEY=YOUR_KEY_HERE \
-SEARCH_API_KEY=YOUR_KEY_HERE \
-SEARCH_ENGINE_ID=YOUR_KEY_HERE
+### 4\. Set Up Environment Variables
 
-    Get keys for \
-    Gemini API: https://aistudio.google.com/welcome \
-    Custom Search JSON API: https://developers.google.com/custom-search/v1/introduction \
-    Search Engine ID: https://developers.google.com/custom-search/v1/introduction
+You'll need to provide API keys for Google's services.
 
-5. Run the app \
+1.  Create a new file named `.env` in the root directory of the project.
+
+2.  Copy the contents of `.env.example` into your new `.env` file.
+
+3.  Add your API keys to the `.env` file:
+
+    ```env
+    GEMINI_API_KEY="YOUR_KEY_HERE"
+    SEARCH_API_KEY="YOUR_KEY_HERE"
+    SEARCH_ENGINE_ID="YOUR_KEY_HERE"
+    ```
+
+<!-- end list -->
+
+  * **Gemini API Key**: Get yours from [Google AI Studio](https://aistudio.google.com/welcome).
+  * **Custom Search JSON API Key & Search Engine ID**: Follow the instructions on the [Google Custom Search API page](https://developers.google.com/custom-search/v1/introduction).
+
+### 5\. Run the Application
+
+Once the setup is complete, you can run the Streamlit app with the following command:
+
+```bash
 streamlit run Chat.py
+```
+
+Open your web browser and navigate to the local URL provided by Streamlit (usually `http://localhost:8501`).
+
+-----
+
+## 📁 Other Projects
+
+Feel free to check out my other projects:
+
+  * **Speech-to-Image Generator**: [vj031206/VJ3-Speech-to-Image](https://github.com/vj031206/VJ3-Speech-to-Image.git)
+  * **Sentiment Analyser**: [vj031206/VJ3-Sentiment-Analysis-flask](https://github.com/vj031206/VJ3-Sentiment-Analysis-flask.git)
